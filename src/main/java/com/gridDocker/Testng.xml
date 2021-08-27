@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Docker" parallel="classes">
+    <test name="Docker Test">
+        <classes>
+            <class name="com.gridDocker.AutomationWithChrome"/>
+            <class name="com.gridDocker.AutomationWithFirefox"/>
+        </classes>
+    </test>
+</suite>
